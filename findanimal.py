@@ -308,7 +308,7 @@ if __name__ == '__main__':
     
     orgframe = cv2.imread(args.source)
     orgframe = cv2.cvtColor(orgframe, cv2.COLOR_BGR2RGB)
-    txtprompt = "animal"
+    txtprompt = "drowning person"
     boxthreshold = 0.35
     textthreshold = 0.25
 
